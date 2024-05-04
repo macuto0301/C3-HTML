@@ -2,18 +2,23 @@ body{
     background-color: chocolate;
 }
 .title{
-    font-size: 1em;
+    font-size: 3em;
     color: crimson;
 }
 .logo{
-    width: 200px;
+    width: 300px;
+    height: 300px;
 }
 .cards{
     border: 4px solid black;
     width: fit-content;
-    padding: 0px 1em 1em 1em;
+    padding: 1em 1em 1em 2dvh;
     border-radius: 10%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 .cards:hover{
     background-color: rgb(90, 131, 64);
@@ -24,9 +29,25 @@ body{
    
 }
 #titulos{
-    border: 2px solid black;
+    
     /*viewport widht*/
     width: 65vw; /* vw porcentaje de la pantalla*/
     margin: auto;
     padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards-container{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 2px solid rgb(54, 53, 53);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
