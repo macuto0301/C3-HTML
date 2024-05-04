@@ -44,10 +44,20 @@ body{
     width: 85vw;
     margin: auto;
     margin-top: 1.5em;
-    border: 2px solid rgb(54, 53, 53);
+    
     border-radius: 15px;
     padding: 2em;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+#sobre-mi{
+    width: 85vw;
+    
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    
+    margin: auto;
+    align-items: center;
 }
